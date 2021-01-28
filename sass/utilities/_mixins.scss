@@ -1,0 +1,32 @@
+// starting with the width
+@mixin wrapper-width {
+  width: 60%;
+  margin: 0 auto;
+}
+@mixin container {
+  width: 90%;
+  margin: 0 auto;
+}
+//flex-box
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+@mixin flex-center {
+  justify-content: center;
+  align-items: center;
+}
+@mixin full-width {
+  width: 100%;
+  height: 100%;
+}
+@mixin absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
